@@ -9,7 +9,7 @@ typedef struct usuario {
 } usuario;
 
 int main(void) {
-  char texto[] = "Eryck Soares Nunes|eryck@email.com|912345678";
+  char texto[] = "Eryck|eryck@email.com|912345678";
     
   usuario u;
   u.nome = strtok(texto, "|");
